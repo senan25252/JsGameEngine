@@ -42,7 +42,6 @@ class GameObject {
                 this.thisTopLine = this.transform.position.y;
                 this.thisLeftLine = this.transform.position.x;
         
-                // Obyektin içində olduğunu yoxlayırıq
                 if (this.thisBottomLine > this.objTopLine && this.thisTopLine < this.objBottomLine &&
                     this.thisRightLine > this.objLeftLine && this.thisLeftLine < this.objRightLine) {
         
